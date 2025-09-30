@@ -9,7 +9,7 @@
 .scale-button:hover { transform: scale(1.2); margin-bottom:7px; margin-top:7px; }
 .scale-button span {  color:#000; font-size:1.7rem; pointer-events:none; user-select:none; transition:inherit;}
 /* add class="buttonlink" to <a>s with a scale button in it */
- .buttonlink {text-decoration:none;}
+ .buttonlink {text-decoration:none; width:fit-content; margin:auto;}
 
 #fakeCursor { position:absolute; width:220px; height:220px; pointer-events:none; transform:translate(-50%, -50%) rotate(0deg); z-index:9999; transition: transform 0.1s linear; }
 
@@ -75,4 +75,5 @@ body .scale-button span { font-size:1.2rem; }
        }
      /* mobile */
  
+
 
