@@ -19,7 +19,7 @@ height:100vh;
   background: url('../images/common/bg.png') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
-  cursor: default;
+  cursor: none;
 }
 
 .top-text {color:#222; text-align:center; z-index:10; font-size:2rem; }
@@ -75,3 +75,4 @@ body .scale-button span { font-size:1.2rem; }
        }
      /* mobile */
  
+
